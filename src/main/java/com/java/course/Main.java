@@ -20,10 +20,5 @@ public class Main {
         LOGGER.info(reversed);
 
         sc.close();
-
-
-
-
-
     }
 }

@@ -22,7 +22,6 @@ public class StringReverser {
             result.append(reversedWord).append(SPACE_CHARACTER);
         }
         return result.toString().trim();
-
     }
 
     private static char[] reverseLetters(String word) {
@@ -49,7 +48,6 @@ public class StringReverser {
         return Arrays.copyOf(reverseWord, resultIndex);
     }
 
-
     public void reverseString(){
         System.out.println("Original String: " + originalString);
 
@@ -58,9 +56,4 @@ public class StringReverser {
         }
         System.out.println("Reversed String: " + reversedString);
     }
-
-
-
-
-
 }
