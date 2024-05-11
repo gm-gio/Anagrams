@@ -40,13 +40,14 @@ public class StringReverser {
                     reverseWord[resultIndex++] = characters[letterIndex--];
                 } else {
                     reverseWord[resultIndex++] = character;
-
                 }
+            } else {
+                reverseWord[resultIndex++] = character;
             }
-
         }
         return Arrays.copyOf(reverseWord, resultIndex);
     }
+
 
     public void reverseString(){
         System.out.println("Original String: " + originalString);
